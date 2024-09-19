@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#nameInputContainer {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.sudoku-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    justify-content: center;
+    width: 220px; /* Total width of the grid */
+    margin: 0 auto; /* Center the grid */
+}
+
+.sudoku-container input {
+    width: 50px; /* Width of each box */
+    height: 50px; /* Height of each box */
+    font-size: 24px;
+    text-align: center;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    color: #31708f;
+}
+
+.hidden {
+    display: none;
+}
